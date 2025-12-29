@@ -79,7 +79,7 @@ class User(Resource):
     
 
 api.add_resource(Users,'/api/users/')
-api.add_resource(User,'/api/users/<int:id')
+api.add_resource(User,'/api/users/<int:id>')
 
 @app.route('/')
 def home():
